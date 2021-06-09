@@ -16,3 +16,4 @@ public class WeightConverter {
 
     }
 }
+// checking if the environment works
