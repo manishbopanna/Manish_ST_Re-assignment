@@ -1,0 +1,28 @@
+import static org.junit.Assert.*;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class TestWeightConverter {
+    private static WeightConverter wc;
+
+    @BeforeClass
+    public static void setup() {
+        wc = new WeightConverter();
+    }
+
+    // writing test cases for the main source code to test in various ways;
+    @Test
+    public void test_kg_to_gms() {
+        assertEquals(1000, wc.kg_to_grams(1));
+    }
+
+    @Test
+    public void test_gms_to_mg() {
+        assertEquals(1000, wc.grams_to_mg(1));
+    }
+
+    @Test
+    public void test_pds_to_kg() {
+        assertEquals(2, wc.pds_to_kg(1));
+    }
+}
