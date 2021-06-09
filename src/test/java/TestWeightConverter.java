@@ -22,6 +22,6 @@ public class TestWeightConverter {
 
     @Test
     public void test_pds_to_kg() {
-        assertEquals(20, wc.pds_to_kg(1));
+        assertEquals(2, wc.pds_to_kg(1));
     }
 }
