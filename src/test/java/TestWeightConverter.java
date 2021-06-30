@@ -15,15 +15,4 @@ public class TestWeightConverter {
         assertEquals(1000, wc.kg_to_grams(1));
     }
 
-    @Test
-    public void test_gms_to_mg() {
-        assertEquals(1000, wc.grams_to_mg(1));
-    }
-
-    @Test
-    public void test_pds_to_kg() {
-        assertEquals(2, wc.pds_to_kg(1));
-    }
 }
-
-// test1
