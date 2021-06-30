@@ -8,4 +8,8 @@ public class WeightConverter {
         return gms;
     }
 
+    public int grams_to_mg(int gms){
+        int mg = gms *1000;
+        return mg;
+    }
 }
